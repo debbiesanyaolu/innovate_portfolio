@@ -25,7 +25,7 @@ print(len("hello  "))
 #index position - starts its count at 0
 print("hello"[-1])
 
-# .notation is a way of accessing methods
+#.notation is a way of accessing methods
 print("hello".upper())
 
 print(random.random())
