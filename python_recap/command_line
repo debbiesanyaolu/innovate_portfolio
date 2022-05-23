@@ -1,0 +1,34 @@
+••Learning Objectives••
+
+To develop a basic understanding of command line 
+and be able to successfully navigate a directory 
+within the terminal.
+To understand the importance of Git for both version 
+control and project management. 
+
+VSC
+Git: Work will be pushed using this
+Github Account: Where our work will be stored
+
+••Terminal Command Lines••
+
+pwd: Shows us where we are on our computer
+ls: List of files of what is in that folder
+cd: Can take us to another folder. If the name of the folder has a space put in " "
+cd .. :  This will take us back to previous folder we were in
+mkdir : Makes a new folder
+echo >  : prints command
+cat : can preview something in the file
+rm : deletes file
+
+**Git Commands**
+
+git init : Prepares git to pushed
+git config --global user.name " " : Adds name to what is being pushed
+git config --global user.email " " : Adds email to what is being pushed
+git add . : adds all files to be pushed (Once this has been done the U which stands for Untracked next to the file name will then change to an A which then stands for Added)
+git add : adds certain files, file name would just need to be added after add 
+git status : Gives status of repo
+git comit -m  " " : Commit changes. The -m " " allows us to add a message within the quotes. 
+git log: Lists what we have done within the git process
+

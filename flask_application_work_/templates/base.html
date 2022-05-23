@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{url_for('static',filename='main.css')}}">
+    <script src="{{url_for('static',filename='app.js')}}"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events</title>
+</head>
+<body onload="checkCookies()">
+    <nav>
+        <a href="{{ url_for('my_view.home') }}"><li>Home</li></a>
+        <a href="{{ url_for('my_view.page1') }}"><li>Page 1</li></a>
+        <a href="{{ url_for('my_view.page2') }}"><li>Page 2</li></a>
+        <a href="{{ url_for('my_view.page3') }}"><li>Page 3</li></a>
+        <a href="{{ url_for('my_view.page4') }}"><li>Page 4</li></a>
+        <a href="{{ url_for('my_view.page5') }}"><li>Page 5</li></a>
+        <a href="{{ url_for('my_view.admin') }}"><li>Admin</li></a>
+        <a href="{{ url_for('my_view.404') }}"><li>404</li></a>
+    </nav>
+    <header>
+        This is the custom header
+    </header>
+
+    {% block content %}
+
+    {% endblock %}
+
+    <!-- <footer>This is the custom footer</footer>
+    <aside>This has extended from base</aside> -->
+    
+</body>
+</html>

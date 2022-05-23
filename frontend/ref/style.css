@@ -1,0 +1,39 @@
+.button1 {
+    background-color: #dbdbdb;
+    padding: 15x;
+    border: 2px solid #515151;
+}
+
+.button2 {
+    background-color: #dbdbdb;
+    padding: 15x;
+    border: 2px solid #515151;
+    transition-duration: 0.5s
+}
+
+.button2:hover{
+    background-color: #0f7f17;
+    color: #dbdbdb;
+    border: 2px solid #515151; 
+}
+
+.button3 {
+    background-color: #dbdbdb;
+    padding: 15x;
+    border: 2px solid #515151;
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px grey;
+}
+
+.button3:hover{
+    background-color: #0f7f17;
+    color: #dbdbdb;
+    border: 2px solid #212121;
+    cursor: pointer;
+}
+
+.button3:active{
+    transform: translateY(2px);
+    box-shadow: 21px
+
+}
